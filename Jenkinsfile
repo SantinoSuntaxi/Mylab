@@ -30,7 +30,7 @@ pipeline{
             steps {
                 
 
-                nexusArtifactUploader artifacts: [[artifactId: 'VinayDevOpsLab', classifier: '', file: 'target/VinaysDevOpsLab-0.0.4-SNAPSHOT.war', type: 'war']], credentialsId: '7efa3eaa-ceab-4204-b994-2829e99ecdd8', groupId: 'com.vinaysdevopslab', nexusUrl: '172.20.10.203:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'VinaysDevOpsLab-SNAPSHOT', version: '0.0.4-SNAPSHOT'
+                nexusArtifactUploader artifacts: [[artifactId: 'VinayDevOpsLab', classifier: '', file: 'target/VinayDevOpsLab-0.0.4-SNAPSHOT.war', type: 'war']], credentialsId: '7efa3eaa-ceab-4204-b994-2829e99ecdd8', groupId: 'com.vinaysdevopslab', nexusUrl: '172.20.10.203:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'VinaysDevOpsLab-SNAPSHOT', version: '0.0.4-SNAPSHOT'
              
             }
         }
