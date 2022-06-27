@@ -6,9 +6,7 @@ pipeline{
     }
 
      environment{
-       ArtifactId = readMavenPom().getArtifactId()
-    
-       
+
     }
     
     
@@ -43,13 +41,7 @@ pipeline{
         }
 
         
-          // Stage 4 : Print some information
-        stage ('Print Environment variables'){
-                    steps {
-                        echo "Artifact ID is '${ArtifactId}'"
-                 
-                    }
-                }
+      
         
      
         
